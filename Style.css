@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: orangered;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    padding: 0px;
+}
+.nav ul{
+    display: flex;
+    gap: 100px;
+    padding: 20px 60px;
+    list-style-type: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 50px 70px;
+    
+
+}
+.main-left {
+    width: 400px;
+
+}
+
+.main-right {
+    width: 700px;
+}
+
+.main-right p{
+    font-size: 20px;
+}
+.main-left h1{
+    font-size: 60px;
+}
+.bold-P{
+    font-size: 50px;
+}
+
+.main-right iframe{
+    height: 400px;
+    width: 600px;
+    border-top: 20px;
+    border-top: 20px solid white;
+    border-radius: 20px;
+}
